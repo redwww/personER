@@ -92,7 +92,7 @@ class LexcicalCheckerTest(unittest.TestCase):
 
     def test_lexical_check__similar_name_but_diff_person_2(self):
         record_a = {'name': 'Katherine Wong', 'url': 'http://KatherineWong.mi'}
-        record_b = {'name': 'Catherine Wang', 'url': 'http://KatherineWang.mi/index'}
+        record_b = {'name': 'Catherine Wang', 'url': 'http://CatherineWang.mi/index'}
         self.assertFalse(LexicalChecker(record_a, record_b).lexical_check())
 
     def test_lexical_check__similar_name_but_diff_person_3(self):
