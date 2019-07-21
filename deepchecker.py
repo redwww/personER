@@ -1,8 +1,6 @@
-import requests
 from bs4 import BeautifulSoup as bs
 from lxml import etree
 import re
-import os, sys, io, zipfile
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from lexicalchecker import LexicalChecker
