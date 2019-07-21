@@ -2,8 +2,9 @@
 PoC code of Entity Resolution solutions.
 
 ##  How to install
-Install packages in the requirements.txt
-You may also need to install NLTK if you want to run DeepChecker.
+Install packages in the `requirements.txt`
+
+You may also need to install `NLTK` if you want to run DeepChecker.
 
 ##  Usage
 To run from code, look at the tests to get started.
