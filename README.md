@@ -15,7 +15,7 @@ python personER.py -na 'Mr. Wade JR Smith' -nb 'Mr. Smith JR Wade' -ua 'http://w
 ```
 
 
-###  To run LexicalChecker from commandline:
+###  To run DeepChecker from commandline:
 Just add a `-deep` flag to switch to the DeepChecker.
 ```
 python personER.py -deep -na 'Tang Nan' -nb 'Dr. Nan Tang' -ua 'https://www.hbku.edu.qa/en/staff/dr-nan-tang' -ub 'http://da.qcri.org/ntang/index.html'
