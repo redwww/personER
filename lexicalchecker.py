@@ -77,7 +77,7 @@ class LexicalChecker:
     # is_abbreviation(first_name_A, first_name_B):
     # ASSERT similar_first_name
     def _similar_first_name(self):
-        if similar(self._name_A['first'], self._name_B['first']) > 0.8 \
+        if similar(self._name_A['first'], self._name_B['first']) > 0.65 \
             or is_abbreviation(self._name_A['first'], self._name_B['first']):
             return True
         return False
